@@ -1,6 +1,10 @@
 name: Publish
 
-on: push
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 permissions: write-all
 
 jobs:
